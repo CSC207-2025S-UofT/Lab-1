@@ -30,7 +30,12 @@ class FizzBuzz {
                 System.out.println(i);
 
             }
-            i++;
+            getI(3);
         }
+    }
+
+    public static void getI(int c) {
+
+        System.out.println(c);
     }
 }
